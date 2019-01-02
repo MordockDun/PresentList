@@ -57,7 +57,7 @@ if (($handle = fopen("data.csv", "r")) !== FALSE) {
     </ol>
 </div>
 
-
+<p>Im Zweifelsfall freuen wir uns immer über Reisen jeglicher Art. ;)</p>
 
 </body>
 </html>
