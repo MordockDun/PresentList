@@ -63,7 +63,7 @@ td {
     padding: .4em .4em .4em 2em;
     *padding: .4em;
     margin: .5em 0;
-    background: #5272c7;
+    background: #27A1CA;
     color: #000;
     text-decoration: none;
     -moz-border-radius: .3em;
@@ -91,7 +91,7 @@ td {
     left: -1.3em;
     top: 50%;
     margin-top: -1.3em;
-    background:#5272c7;
+    background:#27A1CA;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -102,8 +102,16 @@ td {
     -webkit-border-radius: 2em;
     border-radius: 2em;
     color:#FFF;
+
+    transition: all 0.7s ease-in-out;
 }
 
+
+.list-type1 a.used{
+    content:"X";
+    background:#999;
+    color:#c6c6c6;
+}
 .list-type1 a.used:before{
     content:"X";
     background:red;
@@ -113,35 +121,6 @@ td {
 }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-/*
-.list-type1 a:after {
-    content: "X";
-    display:none;
-
-    position: absolute;
-    right: -0.6em;
-    top: 50%;
-    margin-top: -1.3em;
-    background:red;
-    height: 2em;
-    width: 2em;
-    line-height: 2em;
-    border: .3em solid #fff;
-    text-align: center;
-    font-weight: bold;
-    -moz-border-radius: 2em;
-    -webkit-border-radius: 2em;
-    border-radius: 2em;
-    color:#FFF;
-
-}
-.list-type1 a.used:after {
-    display:inline;
-}
-.list-type1 a.used:hover:after {
-    animation:spin 1.5s ease-in-out ;
-}
-*/
 
 .list-type1 .onoffswitch {
     display:inline-block;
