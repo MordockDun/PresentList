@@ -6,6 +6,9 @@
 
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/switch.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="events.js"></script>
 </head>
 <body>
 
@@ -35,8 +38,8 @@ if (($handle = fopen("data.csv", "r")) !== FALSE) {
             
                 <a title='Link in neuem Fenster öffnen' class='".$class."' href='".$data[1]."' target='_blank'>".$data[0]."
                 <div class='onoffswitch'>
-                    <input type='checkbox' name='onoffswitch' class='onoffswitch-checkbox' id='myonoffswitch".$row."' $checked>
-                    <label class='onoffswitch-label' for='myonoffswitch".$row."'>
+                    <input type='checkbox' name='onoffswitch' class='onoffswitch-checkbox' id='myonoffswitch_".$row."' $checked>
+                    <label class='onoffswitch-label' for='myonoffswitch_".$row."'>
                         <span class='onoffswitch-inner'></span>
                         <span class='onoffswitch-switch'></span>
                     </label>
