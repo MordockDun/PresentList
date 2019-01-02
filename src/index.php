@@ -33,7 +33,7 @@ if (($handle = fopen("data.csv", "r")) !== FALSE) {
 
         echo "<li>
             
-                <a class='".$class."' href='".$data[1]."' target='_blank'>".$data[0]."
+                <a title='Link in neuem Fenster öffnen' class='".$class."' href='".$data[1]."' target='_blank'>".$data[0]."
                 <div class='onoffswitch'>
                     <input type='checkbox' name='onoffswitch' class='onoffswitch-checkbox' id='myonoffswitch".$row."' $checked>
                     <label class='onoffswitch-label' for='myonoffswitch".$row."'>
