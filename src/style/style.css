@@ -72,7 +72,7 @@ td {
     transition: all 0.7s ease-in-out;
 
     margin-left:0px;
-
+cursor:alias;
     width:650px;
 }
 
@@ -125,4 +125,5 @@ td {
 .list-type1 .onoffswitch {
     display:inline-block;
     float:right;
+    cursor:pointer;
 }
