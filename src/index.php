@@ -6,15 +6,36 @@
 
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="style/switch.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="events.js"></script>
 </head>
 <body>
 
-<h1>Geschenkeliste für die Hochzeit von Isa und Daniel</h1><br>
+<h1>Geschenkeliste für die Hochzeit von Isa und Daniel</h1>
 
-<p>Es reicht uns völlig wenn ihr einfach so kommt und gute Laune mitbringt. Wer unbedingt etwas schenken möchte aber kein Geld verschenken möchte findet hoffentlich hier etwas geeignetes.</p>
+<p>
+    Liebe Hochzeitsgäste<br>
+    <br>
+    Neuseeland, der Oman, Norwegen, Jordanien, St. Petersburg, Schottland stehen alle auf unserer Reiseziel-Wunschliste (neben vielen weiteren Zielen) - und: die Hochzeitsreise ist noch nicht gebucht! Wir freuen uns also sehr über Geldgeschenke.
+    Wer doch eher etwas zur Aussteuer beitragen möchte, hier ein paar Ideen.<br>
+    <br>
+    <b>Bitte sprecht euch mit unseren Trauzeugen ab</b>, ob ein Geschenk noch „frei“ ist. Wenn ihr euch für eines entschieden habt, einfach anklicken.<br>
+    <br>
+    Das bedeuten die Farben:<br>
+        <ul>
+            <li>
+                Grüne Felder = noch frei<br>
+            </li>
+            <li>
+                Graue Felder = da war ein anderer schneller<br>
+            </li>
+        </ul>
+    <br>
+    Vielen Dank<br>
+    Euer Brautpaar
+</p>
 
 <br>
 
