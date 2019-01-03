@@ -17,7 +17,7 @@ try {
             $fileContent[] = $data;
         }
         fclose($handle);
-    }
+    } else trigger_error("konnte nicht lesen",E_USER_WARNING);
 
     if (isset($fileContent[$id - 1])) {
         $fileContent[$id - 1][2] = $checked=="true"?1:0;
@@ -29,9 +29,8 @@ try {
             echo var_export($data,true)."<br>";
         }
 
-
         fclose($handle);
-    }
+    } else trigger_error("konnte nicht schreiben",E_USER_WARNING);
 
 } catch(\Exception $exception){
     echo $exception->getMessage();
