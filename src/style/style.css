@@ -52,7 +52,7 @@ td {
     counter-reset: li;
     list-style: none;
     *list-style: decimal;
-    font-size: 15px;
+    font-size: 1em;
     font-family: 'Raleway', sans-serif;
     padding: 0;
     margin-bottom: 4em;
