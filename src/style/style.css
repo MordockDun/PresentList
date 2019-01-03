@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Tahoma, sans-serif;
+    padding:0px 20px;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -39,9 +40,12 @@ td {
 
 /* https://www.formget.com/css-lists/ */
 .list-type1{
-    width:400px;
+
     margin:0;
     margin-left:100px;
+
+    min-width:500px;
+    max-width:70%;
 }
 
 .list-type1 ol{
@@ -62,8 +66,8 @@ td {
     display: inline-block;
     padding: .4em .4em .4em 2em;
     *padding: .4em;
-    margin: .5em 0;
-    background: #27A1CA;
+    margin: .3em 0;
+    background: #AAD77A;
     color: #000;
     text-decoration: none;
     -moz-border-radius: .3em;
@@ -73,15 +77,20 @@ td {
 
     margin-left:0px;
 cursor:alias;
-    width:650px;
+
+    width:100%;
 }
 
 .list-type1 a:hover{
-    background: #d6d4d4;
+    /*background: #d6d4d4;*/
     text-decoration:none;
     /*transform: scale(1.1);*/
 
-    margin-left:10px;
+   /* margin-left:10px;*/
+
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 }
 
 .list-type1 a:before{
@@ -91,7 +100,7 @@ cursor:alias;
     left: -1.3em;
     top: 50%;
     margin-top: -1.3em;
-    background:#27A1CA;
+    background: #AAD77A;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -109,8 +118,8 @@ cursor:alias;
 
 .list-type1 a.used{
     content:"X";
-    background:#999;
-    color:#c6c6c6;
+    background: #bdbdbd;
+    color:#6E6E6E;
 }
 .list-type1 a.used:before{
     content:"X";
