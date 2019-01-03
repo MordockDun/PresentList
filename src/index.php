@@ -27,10 +27,10 @@ if (($handle = fopen("data.csv", "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
 
         if($data[2]==1){
-            $class = "used";
+            $class = "";
             $checked = "checked";
         } else {
-            $class = "";
+            $class = "used";
             $checked = "";
         }
 
